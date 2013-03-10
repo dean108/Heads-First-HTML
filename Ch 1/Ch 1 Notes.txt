@@ -1,0 +1,21 @@
+789/11699 - sharpen pencil
+
+creates title and puts in text
+ends heading section
+starts body
+heeding one text
+an image
+new paragraph
+text with bold
+end paragraph
+heading 2
+new paragpath
+text
+end para
+end body
+end html
+
+878/11699 - sharpen pencil
+
+Structure - name, price, description in columns
+

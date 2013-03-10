@@ -1,0 +1,4 @@
+top100 -> logo = <a src="/images/logo.gif">
+genres -> logo.gif = <a src="../images/logo.gif">
+top100 -> pinkfloyd = <a src="/genres/rock/pinkfloyd.html">
+coldplay -> chris = <a src="../../images/artists/chris.gif">
