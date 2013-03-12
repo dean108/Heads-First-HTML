@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>myPod: Downtown Seattle</title>
+    </head>
+    <body>
+        <p>
+            <img src="../photos/seattle_shuffle.jpg" alt="An iPod in downtown Seattle" height="400" width="600">
+        </p>
+    </body>
+</html>
