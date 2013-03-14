@@ -1,0 +1,33 @@
+/* This is the style sheet */
+
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    color: gray;
+
+}
+
+h1 {
+    border-bottom: 1px gray;
+}
+
+p {
+    color: maroon;
+}
+
+p.blueberry {
+    color: blue;
+}
+
+p.greentea, blockquote {
+    color: green;
+}
+
+p.raspberry {
+    color: purple;
+}
+
+
+
