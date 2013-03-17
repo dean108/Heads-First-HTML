@@ -1,0 +1,19 @@
+body {
+    font-family:Geneva, Arial, sans-serif;
+    background-color: #FFE29E;
+    color: #403828;
+}
+
+h1 {
+    color: #403828;
+    border-top-style: solid;
+    border-bottom: 1px #403828;
+}
+
+h2 {
+    color: #403828;
+}
+
+p.summary {
+    font-style:oblique;
+}

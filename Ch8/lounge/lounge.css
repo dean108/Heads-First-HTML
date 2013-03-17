@@ -1,7 +1,7 @@
 /* This is the style sheet */
 
 body {
-    font-family: sans-serif;
+    font-family: Geneva;
 }
 
 h1, h2 {
@@ -10,7 +10,7 @@ h1, h2 {
 }
 
 h1 {
-    border-bottom: 1px gray;
+    border-top: 1px gray;
 }
 
 p {
