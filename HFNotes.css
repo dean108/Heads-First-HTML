@@ -6,8 +6,8 @@ body {
 
 h1 {
     color: #403828;
-    border-top-style: solid;
-    border-bottom: 1px #403828;
+    border-top: thin dotted  #888888;
+    margin-top: 50px;
 }
 
 h2 {
