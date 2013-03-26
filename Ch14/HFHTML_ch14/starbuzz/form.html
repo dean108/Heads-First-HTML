@@ -9,7 +9,41 @@
 
     <h1>The Starbuzz Bean Machine</h1>
     <h2>Fill out the form below and click submit to order</h2>
+    <form action="http://www.starbuzzcoffee.com/processorder.php" method="GET">
+        <p> Choose your beans:
+        
+            <select name="beans">
+                <option value="House Blend">House Blend</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Kenya">Kenya</option>
+            </select>
+        </p>
+        <p>Type: <br />
+            <input type="radio" name="beantype" value="whole" /> Whole Bean </br>
+            <input type="radio" name="beantype" value="ground" checked="checked" />Ground
 
+        </p>
+        <p>Extras:<br />
+            <input type="checkbox" name="extras[]" value="giftwrap" /> Gift Wrap <br />
+            <input type="checkbox" name="extras[]" value="catalog" />Catalog<br />
+        </p>
+        <p>Ship to: <br />
+            Name: <input type="text" name="name" /> <br />
+            Address: <input type="text" name="address" /> <br />
+            City: <input type="text" name="city" /> <br />
+            State: <input type="text" name="state"/> <br />
+            Zip: <input type="text" name="zip" /> <br />
+        </p>
+        <p>Customer Comments:<br />
+            <textarea name="comments" rows="10" cols="48"></textarea>
+        </p>
+        <p>
+        
+            <input type="submit" value="Order Now Sucka!!" />
+
+        </p>
+    </form>
 
 
   </body>
