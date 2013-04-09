@@ -221,9 +221,214 @@
             
         </ul>
         
-                
-        <h1>Chapter 11</h1>
+        <h1>Chapter 9 - Styling with Fonts and Colors: Expanding your Vocabulary</h1>
         <h2>Main Points</h2>
+        <ul>
+            <li>font properties</li>
+            <ul>
+                <li>font-family - fonts divided into font families. Only certain
+                fonts installed on computers</li>
+                <li>Font-size</li>
+                <li>color - sets the font color</li>
+                <li>font-weight - lighter, normal, bold, bolder</li>
+                <li>text-decoration - underline, overline, line-through</li>
+            </ul>
+            <li>font-family</li>
+            <ul>
+                <li>set of fonts that share characteristics</li>
+                <li>5 families: sans-serif, serif, monospace, cursive, and fantasy</li>
+                <li><strong>Serif</strong> has look associated with newspaper print - 
+                serifs are the decorative barbs and hooks on the ends of letters</li>
+                <li><strong>sans-serif</strong>fonts without serifs. Considered more
+                readable on computer screens than serif</li>
+                <li><strong>monospace></strong> characters have constant width - 'i' 
+                takes up same space as 'm' - primarily usd to show code snippets</li>
+                <li><strong>Cursive</strong>includes fonts that look handwritten. 
+                Sometimes used in headings</li>
+                <li><strong>Fantasy</strong>not widely available and rarely used 
+                for serious web designs</li>
+                <li>font stacks - list of fonts in order of preference 
+                belonging to the family</li> 
+                <li>need to make sure that you need to include fots that are likely to 
+                be on the various platforms (mac, windows, linux, ios, etc) that 
+                folks will be using your application or website</li>
+            </ul>
+            <li>font sizes</li>
+            <ul>
+                <li>specify in: 1)pixels - px, 2)relative - 100%, 3) em - relative 
+                unit - so 1.2 = 120%</li>
+                <li>keywords</li>
+                <ul>
+                    <li>Each size is about 20% larger than the other</li>
+                    <li> small is usually 12 pixels in height</li>
+                    <li><strong>keyword size can vary across browsers, 
+                    and users can redefine them</strong></li>
+                </ul>
+                <li>How to define sizes</li>
+                <ul>
+                    <li>choose keyword (small or medium), and define as font size 
+                    in body</li>
+                    <li>specify other fonts relative to that size in either 
+                    percentage or em</li>
+                </ul>
+            <li>font-weight</li>
+            <ul>
+                <li>can use bold, normal</li>
+                <li>bolder or lighter not usually used</li>
+                <li>can also set with number between 100 and 900 - not 
+                generally used</li>
+            </ul>
+            <li> font-style</li>
+            <ul>
+                <li>italic - not all fonts support italic - rather than a specifically 
+                designed slanted set of characters, browser applies slant to normal 
+                characters</li>
+                <li>oblique - regular characters slanted to the right</li>
+                <li>can just choose italic, and browser will figure out if 
+                it italic characters or just slants</li>
+            </ul>
+            <li>web colors</li>
+            <ul>
+                <li>specified in terms of how much red, green, and blue make 
+                up the color - each from 0 to 100</li>
+                <li>css only defines 17 colors</li>
+                <li> you can specify web colors using: 1) name, 2) relative 
+                percentages of r, g, and b, and 3) hex codes</li>
+                <li>hex code calculation: 1) separate hex color into 3 components, 
+                2) convert hex number into decimal: (first number *16) + 
+                (second number) - cd = (12 * 16) + 13</li>
+            </ul>
+            <li>text decoration to create underline, etc</li>
+            </ul> 
+        
+        <h1>Chapter 10 - The Box Model: Getting Intimate with Elements</h1>
+        <h2>Main Points</h2>
+        <ul>
+            <li>line-height property</li>
+            <ul>
+                <li> specifies the amount of vertical space 
+                between each line of text</li>
+                <li>Can improve readability, and contrast 
+                different sections of the site</li>
+                <li>Can be set with px, %, and em</li>
+            </ul>
+            <li><em>The Box Model</em></li>                
+            <ul>
+                <li>Content area - where content goes, edge is where 
+                padding starts</li>
+                <li>Padding - between content and border</li>
+                <li>Border - outside of element</li>
+                <li>Margin - between border and other elements</li>
+                <li>css allows you to customize aspects of each 
+                of these things</li>
+            </ul>                 
+            <li>background-image property</li>
+            <ul>
+                <li>sets a background image of an element</li>
+                <li>not used to place images in a page, that
+                is what &lt;img&gt; tags are for</li>
+                <li>background-image is for pure presentation, 
+                &lt;img&gt; element is where image has more 
+                substantial role </li>
+                <li> background-repeat: can have value of 
+                repeat, no-repeat, repeat-x, repeat-y, 
+                and inherit</li>
+                <li>background-position - positions the image</li>
+            </ul>
+            <li>Borders</li>
+            <ul>
+                <li>border-syle: solid, dotted, dashed, etc</li>
+                <li>border-width: keywords or pixels</li>
+                <li>border-color</li>
+                <li>Also border-top-width</li>
+            </ul>
+            <li>id selector</li>
+            <ul>
+                <li>select by using # character in front of 
+                id name</li>
+                <li>can select element#id - p#footer</li>
+                <li>id selector only matches one element in 
+                a page</li>
+            </ul>
+            <id>Using multiple style sheets</id>
+            <ul>
+                <li>priority goes from top to bottom, with 
+                style sheets on bottom taking precedence</li>
+            </ul
+        </ul>
+        <h1>Chapter 11 - Divs and Spans: Advanced Web Construction</h1>
+        <h2>Main Points</h2>
+        <ul>
+            <li>&lt;div&gt;s</li>
+            <ul>
+                <li>divides elements into logical sections - containers</li>
+                <li>divs can be nested within divs<li>
+                <li>divs should be used to separate into logical sections 
+                for clarity and styling, not just to create a lot 
+                of unnecessary structure</li>
+                <li>divs can be styled with css</li>
+                <li>the width property of divs specifies content width only, 
+                the width of the left/right margins, left/right padding,
+                + border width(x2) must be added to content width of the box</li>
+                <li>Can specify width in pixels or percent</li>
+                <li>setting text-align property for div will align all 
+                in-line elements</li>
+                <li>text-align should only be set on block elements - 
+                has no effect on inline elments</li>
+            </ul>
+            <li>Descendant Selectors - parent descendant { </li>
+            <li>CSS Shorthand</li>
+            <ul>
+                <li>example margin: 0px 20px 30px 10px; (clockwise 
+                top right bottom left)</li>
+                <li>margin: 20px; (sets 20px margin for all)</li>
+                <li>margin: 20px 30px; (sets top/bottom at 20px, 
+                and right/left at 30px)</li>
+                <li>background: white url(images/image.gif) repeat-x; 
+                (does background-color, background-image, and 
+                background-repeat)</li>
+                <li>font: font-style font variant font-width 
+                font-size/line-height font family</li>
+            </ul>
+            <li>Spans</li>
+            <ul>
+                <li>allows one to group inline characters</li>
+                <li>example: &lt;li&gt;&lt;span class="artist"
+                &gt;Grateful Dead&lt;/span&gt;, &lt;span class = 
+                "song"&gt;Box of Rain&lt;/span&gt;&lt;/li&gt;</li>
+                <li>Style spans just like divs</li>
+            </ul>
+            <li>pseudo-classes</li>
+            <ul>
+                <li>acts like a class, but wasn't explicitly defined</li>
+                <li>example - a:link a:visted a:hover</li>
+            </ul>
+            <li><em>Cascading</em> Style Sheets</li>
+            <ul>
+                <li>there are multiple style sheets: 1) one's that author 
+                writes, 2) ones that the reader's create, and 3) browser's 
+                default styles</li>
+                <li> to figure out style for a particular element:</li>
+                <ol>
+                    <li>gather up auther, reader, and browser style sheets</li>
+                    <li>find all the declarations that match</li>
+                    <li>sort all matches in order of author, reader, browser</li>
+                    <li>sort all declarations in order of specificity</li>
+                    <li>sort any conflicint rules in order they appar in their 
+                    individual style sheets. Take list and order any conflicting 
+                    rules so that the ones appearing later are more important</li>
+                    <li>first rule in the sorted list wins</li>
+                </ol>
+                <li>calculating specificity - look at 3 numbers</li>
+                <ul>
+                    <li>Does the selector have any ids? One point each</li>
+                    <li>Does the selector have any classes or pseudo-classes? 
+                    One point each</li>
+                    <li>Does the selector have any element names> One 
+                    point each</li>
+                    <li>bigger the number, the higher the specificity</li>
+                </ul>
+        </ul>   
         <h2>Exercises</h2>
         <h3>Width of Elixers area</h3>
         <p>262px</p>
